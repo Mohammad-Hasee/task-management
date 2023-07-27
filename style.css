@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #loginForm, #dashboard {
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 5px;
+  }
+  
+  #taskList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .taskCard {
+    width: calc(33% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .taskCard h3 {
+    margin: 5px 0;
+  }
+  
+  .taskCard p {
+    font-size: 12px;
+    color: #888;
+    margin: 5px 0;
+  }
+  
